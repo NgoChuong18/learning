@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LP VNExpress Cosplay</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <header class="section top-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="https://s1.vnecdn.net/vnexpress/restruct/i/v602/v2_2019/pc/graphics/logo.svg" alt="logo-img" /></a>
+            </div>
+            <span id="time-now"></span>
+            <div class="header-right">
+                <a href="#"><button class="btn__link">Mới nhất</button></a>
+                <a href="#"><button class="btn__link">International</button></a>
+                <form class="search__box">
+                    <input id="keyword" type="text" placeholder="Tìm kiếm" />
+                    <button type="submit" class="btn__search">
+              <i class="fa fa-search"></i>
+            </button>
+                </form>
+                <div class="sign__in">
+                    <div class="sign-in">
+                        <a href="" class="text__box">
+                            <i class="fa fa-user"></i> Đăng Nhập
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section wrap-main-nav">
+        <nav class="main-nav">
+            <ul class="main-list">
+                <li class="home">
+                    <a>
+                        <i class="fa fa-home"></i>
+
+
+                    </a>
+                </li>
+                <li class="newlest"><a>Mới nhất</a></li>
+                <li class="thoisu"><a>Thời sự</a></li>
+                <li class="gocnhin"><a>Góc nhìn</a></li>
+                <li class="thegioi"><a>Thế giới</a></li>
+                <li class="video"><a>Video</a></li>
+                <li class="podcasts"><a>Podcasts</a></li>
+                <li class="kinhdoan"><a>Kinh doanh</a></li>
+                <li class="khoahoc"><a>Khoa học</a></li>
+                <li class="giaitri"><a>Giải trí</a></li>
+                <li class="thethao"><a>Thể thao</a></li>
+                <li class="phapluat"><a>Pháp luật</a></li>
+                <li class="suckhoe"><a>Sức khỏe</a></li>
+                <li class="giaoduc"><a>Giáo dục</a></li>
+                <li class="doisong"><a>Đời sống</a></li>
+                <li class="dulich"><a>Du lịch</a></li>
+                <li class="all-menu has_transittion"><a>Tất cả
+                    <i class="fa fa-bars"></i>
+                </a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="section section-hotnews">
+        <div class="container flexbox">
+            <div class="col-left">
+                <div class="hot-thumpnews">
+                    <div class="thumpnews ">
+                        <img src="https://i1-thethao.vnecdn.net/2022/05/18/2-1652851693-1652851704-6534-1652852052.png?w=120&h=72&q=100&dpr=2&fit=crop&s=Rq1_Bh82hFl7KplcqtyPmQ" alt="">
+                    </div>
+                    <div class="title ">
+                        <h3 class="title-news"><a href="#"> Nữ Việt Nam – Myanmar: Cuộc chiến thể lực</a> </h3>
+                        <p class="description"><a href="#"> SEA Games chiều 18/5: Thanh Tự đánh bại Reyes</a></p>
+                        <p class="meta-news"><a>42' trước</a></p>
+
+                    </div>
+                </div>
+                <div class="hot-subnews flex-box">
+                    <div class="title ">
+                        <h3 class="title-news"><a href="#">SEA Games chiều 18/5: Thanh Tự đánh bại Reyes </a> </h3>
+                        <p class="description"><a href="#">Nguyễn Trần Thanh Tự hạ huyền thoại billiards Efren Reyes 100-55 ở bán kết nội dung carom một băng tại Nhà thi đấu Hà Đông chiều 18/5.</a></p>
+                        <p class="meta-news"><a>42' trước</a></p>
+
+                    </div>
+                    <div class="title ">
+                        <h3 class="title-news"><a href="#">Nữ Việt Nam – Myanmar: Cuộc chiến thể lực </a> </h3>
+                        <p class="description"><a href="#">Quang Ninh_ Lối chơi quyết liệt của Myanmar hứa hẹn gây khó khăn cho Việt Nam ở bán kết bóng đá nữ SEA Games 31 trên sân Cẩm Phả tối 18/5.</a></p>
+                        <p class="meta-news"><a>42' trước</a></p>
+
+                    </div>
+                    <div class="title ">
+                        <h3 class="title-news"><a href="#">Quan hệ tình dục sớm </a> </h3>
+                        <p class="description"><a href="#">Một người mẹ đến gặp tôi với nỗi ám ảnh dai dẳng khi con gái bắt đầu lớn, đặc biệt là từ khi cháu có bạn trai.</a></p>
+                        <p class="meta-news"><a>42' trước</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <img src="images/scr_vn.png" alt="" class="src">
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    var curDate = new Date();
+
+    // Ngày hiện tại
+    var curDay = curDate.getDate();
+
+    // Tháng hiện tại
+    var curMonth = curDate.getMonth() + 1;
+
+    // Năm hiện tại
+    var curYear = curDate.getFullYear();
+
+    // Gán vào thẻ HTML
+    document.getElementById('time-now').innerHTML = curDay + "/" + curMonth + "/" + curYear;
+</script>
+
+</html>
