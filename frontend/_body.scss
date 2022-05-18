@@ -1,0 +1,83 @@
+body {
+    color: #222;
+    font: 400 15px arial;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-hotnews {
+    padding-top: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        .col-left {
+            width: 780px;
+            .hot-thumpnews {
+                display: flex;
+                background: #f7f7f7;
+                .thumpnews {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .title {
+                    background: #f7f7f7;
+                    margin: 0;
+                    margin-left: 20px;
+                    .title-news {
+                        width: auto;
+                        float: none;
+                        margin-bottom: 10px;
+                        padding-top: 20px;
+                        font-weight: 700;
+                        line-height: 30px;
+                    }
+                    .description {
+                        clear: none;
+                        line-height: 20px;
+                    }
+                    .meta-news {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .hot-subnews {
+                display: flex;
+                padding-top: 0;
+                border-top: none;
+                margin-top: 20px;
+                width: 100%;
+                padding-left: 0;
+                height: auto;
+                position: relative;
+                .title {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+    .col-right {
+        width: 320px;
+        padding-left: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
